@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/nhai.nguyen2/eclipse-workspace/NorthShoreCare">
+        <classes>
+            <class name="Test.DesktopFlow">
+                <methods>
+
+                    <include name="contacUs"/>
+
+                </methods>
+            </class>
+<!--            < class name="Test.MobileFlow">-->
+<!--                <methods>-->
+<!--                    <include name="checkoutAsGuestFlowMobile"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
